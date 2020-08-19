@@ -1,36 +1,13 @@
-# Python environment with a requirements.txt
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Jezz3/ppt3/master?urlpath=lab/tree/)
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Jezz3/ppt3/master)
+# Deep Learning With Keras
+How to use the Keras Deep Learning library - Introductory Jupyter Notebook
 
-A Binder-compatible repo with a `requirements.txt` file.
+## Please Click on the Binder Icon to experience the interactive jupyter notebook. 
 
-Access this Binder at the following URL
+Introduction to Deep Learning with one of the famous tools out there. Keras.
 
-http://mybinder.org/v2/gh/binder-examples/requirements/master
-
-## Notes
-The `requirements.txt` file should list all Python libraries that your notebooks
-depend on, and they will be installed using:
-
-```
-pip install -r requirements.txt
-```
-
-The base Binder image contains no extra dependencies, so be as
-explicit as possible in defining the packages that you need. This includes
-specifying explicit versions wherever possible.
-
-If you do specify strict versions, it is important to do so for *all*
-your dependencies, not just direct dependencies.
-Strictly specifying only some dependencies is a recipe for environments
-breaking over time.
-
-[pip-compile](https://github.com/jazzband/pip-tools/) is a handy
-tool for combining loosely specified dependencies with a fully frozen environment.
-You write a requirements.in with just the dependencies you need
-and pip-compile will generate a requirements.txt with all the strict packages and versions that would come from installing that package right now.
-That way, you only need to specify what you actually know you need,
-but you also get a snapshot of your environment.
-
-In this example we include the library `seaborn` which will be installed in
-the environment, and our notebook uses it to plot a figure.
+Dataset from https://www.cs.toronto.edu/~kriz/cifar.html
+Learning Multiple Layers of Features from Tiny Images, Alex Krizhevsky, 2009.
+https://www.cs.toronto.edu/~kriz/learning-features-2009-TR.pdf
